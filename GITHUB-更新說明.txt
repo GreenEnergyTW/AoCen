@@ -1,0 +1,14 @@
+奧岑綠能網站 GitHub 更新方式
+
+1. 將壓縮包解壓縮。
+2. 把解壓縮後的所有檔案與 assets 資料夾，上傳至 GitHub 專案最外層。
+3. 選擇覆蓋同名檔案並 Commit changes。
+4. 首頁檔案固定為 index.html，日後不需要 Aocen-Green-Energy.html。
+
+修改表單收件信箱：
+開啟 script.js，搜尋「表單收件信箱設定」。
+
+FORM_RECIPIENT：主要收件人
+FORM_CC：副本收件人；若不需要副本，改成空字串 ''。
+
+提醒：此版本使用 mailto，送出表單時會開啟訪客裝置上的電子郵件程式。
